@@ -137,7 +137,7 @@ Mois = "Juillet"
 
 # Execution Plugin "Chromedriver.exe" et lancement du site
 driver = webdriver.Chrome("/Users/wglint/Downloads/chromedriver")
-driver.get("https://osiri.sfr.fr/osiris/circet/")
+driver.get("https://xxx.xx.fr/xxx/xxx/")
 
 # Entrer les logins CIRCET
 sleep(5)

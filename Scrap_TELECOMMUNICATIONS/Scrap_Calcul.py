@@ -1,12 +1,12 @@
 import pandas as pd
 
-A = pd.read_excel('Juillet_2022_OSIRIS.xlsx', usecols='A', index_col=0)
-E = pd.read_excel('Juillet_2022_OSIRIS.xlsx', usecols='E', index_col=0)
-F = pd.read_excel('Juillet_2022_OSIRIS.xlsx', usecols='F', index_col=0)
-G = pd.read_excel('Juillet_2022_OSIRIS.xlsx', usecols='G', index_col=0)
-H = pd.read_excel('Juillet_2022_OSIRIS.xlsx', usecols='H', index_col=0)
-I = pd.read_excel('Juillet_2022_OSIRIS.xlsx', usecols='I', index_col=0)
-J = pd.read_excel('Juillet_2022_OSIRIS.xlsx', usecols='J', index_col=0)
+A = pd.read_excel('Juillet_2022_xxx.xlsx', usecols='A', index_col=0)
+E = pd.read_excel('Juillet_2022_xxx.xlsx', usecols='E', index_col=0)
+F = pd.read_excel('Juillet_2022_xxx.xlsx', usecols='F', index_col=0)
+G = pd.read_excel('Juillet_2022_xxx.xlsx', usecols='G', index_col=0)
+H = pd.read_excel('Juillet_2022_xxx.xlsx', usecols='H', index_col=0)
+I = pd.read_excel('Juillet_2022_xxx.xlsx', usecols='I', index_col=0)
+J = pd.read_excel('Juillet_2022_xxx.xlsx', usecols='J', index_col=0)
 
 Nom = A.index
 Statut = E.index
